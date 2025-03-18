@@ -1,4 +1,4 @@
-const tg = window.Telegram.webApp;
+const tg = window.Telegram.WebApp;
 
 const sendDatToBot = document.querySelector("#data-send-to-bot-btn")
 
