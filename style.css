@@ -34,7 +34,7 @@ body {
 }
 
 .card {
-    box-shadow: 0 1px 10px 0 #e4e3e3;
+    border: 1px solid;
     padding: 15px;
     border-radius: 5px;
     display: flex;
@@ -87,7 +87,6 @@ body {
     width: fit-content;
     padding: 3px;
     border-radius: 3px;
-    background: #e5f3eb;
     color: #000 !important;
 }
 
@@ -110,7 +109,24 @@ body {
 }
 
 .modal-info {
-    box-shadow: none;
+    border: none;
     padding: 0;
     margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#data-send-to-bot-btn {
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+    margin: 10px 0;
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    cursor: pointer;
+    border: none;
 }
