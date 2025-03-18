@@ -118,14 +118,3 @@ body {
     flex-direction: column;
     gap: 10px;
 }
-
-#data-send-to-bot-btn {
-    width: 100%;
-    padding: 8px;
-    font-weight: 600;
-    margin: 10px 0;
-    background: var(--tg-theme-button-color);
-    color: var(--tg-theme-button-text-color);
-    cursor: pointer;
-    border: none;
-}
