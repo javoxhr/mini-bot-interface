@@ -1,15 +1,6 @@
 const tg = window.Telegram.WebApp;
 
-const sendDatToBot = document.querySelector("#data-send-to-bot-btn")
-
-sendDatToBot.addEventListener("click", ()=> {
-    let data = {
-        title: "Hello",
-        price: 20,
-        info: "test data from JavaScript client"
-    }
-    tg.sendDat(JSON.stringify(data))
-})
+tg.expand()
 
 const products = [
     {
